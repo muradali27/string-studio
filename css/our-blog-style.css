@@ -1,0 +1,444 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* @font-face {
+  font-family: Inter;
+  src: url("../font/New\ folder/\");
+} */
+
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  background-color: #141323;
+}
+.card-container-2{
+  width: 88%;
+    display: flex;
+    flex-direction: column;
+}
+.card1 {
+  margin-top: 35px;
+  display: flex;
+  flex-direction: row;
+  border-radius: 8px;
+  /* overflow: hidden; */
+  /* border-bottom: 2px solid white;*/
+}
+
+.card-content {
+  /* flex: 1; */
+  display: flex;
+  /* justify-content: space-evenly; */
+  width: 60%;
+  background-color: #2e2d30;
+  /* justify-content: center; */
+  align-items: center;
+  padding: 0 102px;
+
+}
+.text1 {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  justify-content: center;
+}
+.text1 h1 {
+  font-size: 40.22px;
+  margin: 0;
+  color: #ffffff;
+  font-family: inter;
+}
+.text3 {
+  color: #dcdcdc;
+  font-size: 18.77px;
+  line-height: 22.71px;
+  margin: 0;
+  font-family: inter;
+}
+.text4 {
+  margin: 0;
+  font-size: 16.09px;
+  color: #dcdcdc;
+  line-height: 19.47px;
+  font-family: inter;
+}
+.text-btn {
+  border: none;
+  background-color: #2e2d30;
+  color: #dcdcdc;
+  font-size: 16.09px;
+  line-height: 19.47px;
+  font-family: inter;
+}
+
+.card-image  {
+  width: 50%;
+}
+.image-long{
+  width: 100%;
+
+}
+
+.text2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* ----------------------option-section----------------------- */
+.optional-container {
+  display: flex;
+  justify-content: center;
+  background-color: #141323;
+}
+
+
+.optional-option {
+  width: 88%;
+  display: flex;
+  justify-content: space-between;
+  /* flex-wrap: wrap; */
+  gap: 15px;
+  /* margin-top: 80px; */
+  /* margin-bottom: 44px; */
+  background-color: #141323;
+}
+.text-1{
+font-size: 26.81px;
+line-height: 60.45px;
+color: #FFFFFF;
+font-family: inter;
+}
+.text-2{
+display: flex;
+justify-content: space-between;
+align-items: baseline;
+}
+.text-3{
+font-size: 18.77px;
+line-height: 22.71px;
+color: #DCDCDC;
+font-family: inter;
+}
+.text-4{
+color: #FFFFFF;
+font-size: 16.09px;
+line-height: 19.47px;
+font-family: inter;
+}
+.text-btn1{
+color: #FFFFFF;
+font-size: 16.09px;
+line-height: 19.47px;
+border: none;
+background-color:#2e2d30 ;
+font-family: inter;
+}
+.op-coantent {
+  display: flex;
+  /* width: 399.17px;
+  height: 500.1px; */
+  margin-top: 70px;
+  /* margin-bottom: 0px; */
+  border-radius: 20px;
+  border-bottom: 2px solid white;
+}
+.box-content {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* padding: 0px 30px; */
+  /* gap: 20px; */
+  background-color: #2e2d30;
+  border-radius: 6.7px;
+}
+.box-content1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 22px;
+  padding: 0px 23px;
+}
+.box-image{
+  width: 100%;
+}
+
+/* ----------------------option-section-2----------------------- */
+
+
+.option-main{
+  display: flex;
+  justify-content: center;
+  background-color: #141323;
+}
+
+.option{
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+  width: 88%;
+}
+.option1{
+    background-color: #2E2D30;
+    display: flex;
+    flex-direction: column;
+    padding: 70px;
+    width: 50%;
+    justify-content: center;
+}
+.option-h1{
+    font-size: 53.62px;
+    line-height: 64.9px;
+    color: #FFFFFF;
+    font-family: inter;
+}
+.option-p{
+    font-size: 21.45px;
+    line-height: 30.96px;
+    color: #DCDCDC;
+    font-family: inter;
+}
+.option-p1{
+    color: #DCDCDC;
+    font-size: 21.45px;
+    line-height: 25.96px;
+    font-family: inter;
+}
+.option-btn{
+    color: #FFFFFF;
+    font-size: 21.45px;
+    line-height: 25.96px;
+    border: none;
+    background-color: #2E2D30;
+    font-family: inter;
+}
+.computer-div{
+  width: 50%;
+}
+.computer{
+  max-width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+/* @media (max-width: 1237px) {
+  .text1 {
+    padding: 40px;
+}
+}
+@media (max-width: 1173px) {
+  .text1 {
+    padding: 25px;
+}
+} */
+
+
+@media (max-width: 1253px) {
+
+  .option1 {
+    padding: 55px;
+}
+
+}
+@media (max-width: 1178px) {
+  .text1 h1 {
+    font-size: 36.22px;
+}
+.text1 {
+  gap: 28px;
+}
+.card-content {
+  padding: 0 90px;
+}
+}
+
+
+
+@media (max-width: 1175px) {
+
+  .option-h1 {
+    font-size: 45.62px;
+    line-height: 50.9px;
+}
+.option-p {
+  font-size: 20.45px;
+  line-height: 28.96px;
+}
+.option-p1 {
+  font-size: 18.45px;
+}
+.option-btn {
+  font-size: 18.45px;
+}
+}
+
+
+
+@media (max-width: 1082px) {
+
+.option1 {
+  padding: 37px;
+}
+}
+@media (max-width: 1062px) {
+
+  .text1 {
+    gap: 25px;
+}
+.text1 h1 {
+  font-size: 32.22px;
+}
+.text3 {
+  font-size: 16.77px;
+  line-height: 20.71px;
+}
+.text4 {
+  font-size: 14.09px;
+  line-height: 14.47px;
+}
+.text-btn {
+  font-size: 14.09px;
+  line-height: 14.47px;
+}
+}
+
+@media (max-width: 1000px) {
+
+.text-1 {
+  font-size: 22.81px;
+  line-height: 50.45px;
+}
+.text-3 {
+  font-size: 15.77px;
+  line-height: 20.71px;
+}
+.text-4 {
+  font-size: 14.09px;
+  line-height: 15.47px;
+}
+.text-btn1 {
+  font-size: 14.09px;
+  line-height: 15.47px;
+}
+}
+@media (max-width: 993px) {
+
+.option-h1 {
+  font-size: 40.62px;
+  line-height: 45.9px;
+}
+.option-p {
+  font-size: 18.45px;
+  line-height: 22.96px;
+}
+.option-p1 {
+  font-size: 15.45px;
+  line-height: 18.96px;
+}
+
+.option-btn {
+  font-size: 15.45px;
+  line-height: 18.96px;
+}
+}
+@media (max-width: 944px) {
+  .card-content {
+    padding: 0px 70px;
+}
+.text1 {
+  gap: 16px;
+}
+.text3 {
+  font-size: 14.77px;
+  line-height: 17.71px;
+}
+.text4 {
+  font-size: 13.09px;
+  line-height: 8.47px;
+}
+.text-btn {
+  font-size: 13.09px;
+  line-height: 8.47px;
+}
+
+}
+
+
+@media (max-width: 886px) {
+
+.text-1 {
+  font-size: 20.81px;
+  line-height: 42.45px;
+}
+.text-3 {
+  font-size: 12.77px;
+  line-height: 17.71px;
+}
+.text-4 {
+  font-size: 12.09px;
+  line-height: 10.47px;
+}
+.text-btn1 {
+  font-size: 12.09px;
+  line-height: 10.47px;
+}
+}
+
+@media (max-width: 864px) {
+
+  .option1 {
+    padding: 25px;
+}
+.option-h1 {
+  font-size: 32.62px;
+  line-height: 35.9px;
+}
+.option-p {
+  font-size: 15.45px;
+  line-height: 18.96px;
+}
+.option-p1 {
+  font-size: 14.45px;
+  line-height: 15.96px;
+}
+.option-btn {
+  font-size: 14.45px;
+  line-height: 15.96px;
+}
+
+}
+
+@media (max-width: 831px) {
+  .card-content {
+    padding: 0px 50px;
+}
+.text1 h1 {
+  font-size: 27.22px;
+}
+.text3 {
+  font-size: 13.77px;
+  line-height: 16.71px;
+}
+.text4 {
+  font-size: 12.09px;
+  line-height: 3.47px;
+}
+.text-btn {
+  font-size: 12.09px;
+  line-height: 3.47px;
+}
+
+
+}
+
